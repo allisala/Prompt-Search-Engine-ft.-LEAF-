@@ -25,6 +25,7 @@ Built as an industry-partner project with **LEAF**, who provided the PromptKaban
 - [How it works](#how-it-works)
 - [Results](#results)
 - [Tech stack](#tech-stack)
+- [Demo and design](#demo-and-design)
 - [Project structure](#project-structure)
 - [Getting started](#getting-started)
 - [Team and contributions](#team-and-contributions)
@@ -175,6 +176,32 @@ The full agentic pipeline wins on overall retrieval quality; the no-rerank varia
 **App & tooling:** Streamlit, Jupyter, ipywidgets
 
 **Techniques:** dense retrieval, hybrid search, cross-encoder reranking, Reciprocal Rank Fusion, MMR, intent classification, query rewriting (RAG-style), offline evaluation (P@k, MRR, nDCG).
+
+---
+
+## Demo and design
+
+The engine ships with a working **Streamlit app** for live querying and a polished **Figma prototype** that shows how the search would feel inside PromptKaban. The product concept and the entire interface design were created by **Alisa Lamina**.
+
+### Streamlit demo
+
+A real, runnable app on top of the importable search runtime. Type a query, pick a pipeline (Baseline / Agentic no-rerank / Agentic full), and inspect the ranked results with their score breakdowns.
+
+![Streamlit demo](assets/streamlit_demo.png)
+
+*The Streamlit demo running "write a cold email to a potential B2B client" through the agentic no-rerank pipeline. The sidebar selects the pipeline and parameters (e.g. number of rewrites); the main panel reports the end-to-end latency (4,303 ms in this run), the query paraphrases sent to Reciprocal Rank Fusion, and the top results with their scores and metadata.*
+
+### Figma prototype
+
+A higher-fidelity product vision for how semantic search would live inside PromptKaban, with a pipeline selector and a live, per-stage breakdown of the retrieval flow. The interactive version is available at **[floret-cage-69166833.figma.site](https://floret-cage-69166833.figma.site)**.
+
+![Figma prototype — search interface](assets/figma_search_interface.png)
+
+*Main search interface — a single search box and three pipeline options: Baseline (fast), Agentic no-rerank (recommended), and Agentic full (slow). The sidebar shows recent searches and the main area surfaces trending queries. (Latencies in the prototype are illustrative; measured values are in the [Results](#results) table.)*
+
+![Figma prototype — A/B view](assets/figma_ab_view.png)
+
+*A/B view for "Fix a bug in my JavaScript code" — each side shows a pipeline breakdown by stage (Embed → Rewrite → Retrieve → Fuse → Diversify) with its P@10 and MRR. The agentic side adds a Rewrite step and surfaces extra relevant results the baseline misses (highlighted in green).*
 
 ---
 
