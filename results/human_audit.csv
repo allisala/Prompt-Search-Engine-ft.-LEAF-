@@ -1,0 +1,201 @@
+query,rank,id,title,category,ce_score,ce_grade,human_grade,notes
+API integration issues trouble shooting tips,1,pk_03475,Write API integration troubleshooting guide,knowledge-base,3.5291261672974,2,2,
+API integration issues trouble shooting tips,2,pk_08400,Technical Support: API Integration Help,knowledge-base,1.5955858230591,2,2,
+API integration issues trouble shooting tips,3,pk_05036,API error chatbot resolution flow,chatbot-flows,-0.6972867846489,0,0,no chatbot question asked
+API integration issues trouble shooting tips,4,pk_09631,Fix intermittent API timeouts,debugging,-3.1780319213867,0,1,
+API integration issues trouble shooting tips,5,pk_06116,api problem,coding,-3.6574711799622,0,1,
+API integration issues trouble shooting tips,6,pk_09176,API Error Debugging Framework,debugging,-5.0061450004578,0,1,
+API integration issues trouble shooting tips,7,pk_14259,Debug intermittent production issue,debugging,-5.4504232406616,0,0,no debugging asked
+API integration issues trouble shooting tips,8,pk_00044,Create onboarding troubleshooting guide,knowledge-base,-5.3018808364868,0,0,irrelevant
+API integration issues trouble shooting tips,9,pk_00767,Knowledge Base Article Outline,knowledge-base,-5.2321662902832,0,0,irrelevant
+API integration issues trouble shooting tips,10,pk_18012,Design API chatbot integration flow,chatbot-flows,-4.8955411911011,0,0,no need to design chatbots
+"`""best practices for JavaScript variable declaration""`",1,pk_04751,Unit Test Strategy for Pure Functions,testing,1.4347367286682,2,0,weak JavaScript connection
+"`""best practices for JavaScript variable declaration""`",2,pk_16813,Environment variable management,devops,-0.28907051682472,0,0,irrelevant
+"`""best practices for JavaScript variable declaration""`",3,pk_15113,Implement feature using best practices,coding,-1.0103036165237,0,0,not clear
+"`""best practices for JavaScript variable declaration""`",4,pk_11996,React component testing best practices,testing,-0.98337554931641,0,0,no coding relation
+"`""best practices for JavaScript variable declaration""`",5,pk_06021,Act as Security Expert for Code Review,code-review,-1.747011423111,0,0,irrelevant
+"`""best practices for JavaScript variable declaration""`",6,pk_07635,Python Logging Best Practices,coding,-1.1023993492126,0,0,"the user asked about JavaScript, not Python"
+"`""best practices for JavaScript variable declaration""`",7,pk_11987,Code review best practices,code-review,-2.5260109901428,0,1,
+"`""best practices for JavaScript variable declaration""`",8,pk_01292,Implement TDD Workflow,testing,-1.6950350999832,0,0,no coding relation
+"`""best practices for JavaScript variable declaration""`",9,pk_18679,variable naming is hard,coding,-1.3706452846527,0,0,no coding relation
+"`""best practices for JavaScript variable declaration""`",10,pk_08084,Guide internationalization best practices,localization,-2.1416616439819,0,0,no coding relation
+What did we cover in today's methodology class?,1,pk_03601,Methodology Evaluation Checklist,research,-0.37292033433914,0,0,the user asks bout the class notes and not about methodology
+What did we cover in today's methodology class?,2,pk_12885,question about methodology class stuff,academic,-1.423131942749,0,1,
+What did we cover in today's methodology class?,3,pk_05415,Sales forecasting methodology,sales,-2.2735385894775,0,0,the user asks bout the class notes and not about methodology
+What did we cover in today's methodology class?,4,pk_18073,REVIEW MY METHODOLOGY SECTION,science-research,-2.373509645462,0,1,
+What did we cover in today's methodology class?,5,pk_15124,can u help me understand this methodology section,science,-2.9406914710999,0,1,the user asks bout the class notes and not about methodology
+What did we cover in today's methodology class?,6,pk_07844,Startup financial projection methodology,modeling,-3.8606288433075,0,0,the user asks bout the class notes and not about methodology
+What did we cover in today's methodology class?,7,pk_16562,question about research methods for my psych project,science,-3.1995339393616,0,0,the user asks bout the class notes and not about methodology
+What did we cover in today's methodology class?,8,pk_09109,Question about methods section,science-research,-3.2957572937012,0,0,the user asks bout the class notes and not about methodology
+What did we cover in today's methodology class?,9,pk_14505,methodology,science-research,-4.0156364440918,0,1,
+What did we cover in today's methodology class?,10,pk_19168,help with my research methodology section,research,-4.2029609680176,0,0,the user asks bout the class notes and not about methodology
+best practices for creating a welcome email for new hires,1,pk_09355,New Hire Welcome Email,onboarding,5.2457051277161,2,2,
+best practices for creating a welcome email for new hires,2,pk_07410,Onboarding email sequence for new hires,onboarding,5.2843079566956,2,2,
+best practices for creating a welcome email for new hires,3,pk_00199,Welcome Email Template,communication,4.5103445053101,2,1,
+best practices for creating a welcome email for new hires,4,pk_14485,Draft new employee welcome email template,hr,3.899356842041,2,2,
+best practices for creating a welcome email for new hires,5,pk_04821,NEW HIRE WELCOME EMAIL TONIGHT!!!,hr-recruiting,3.9138674736023,2,1,
+best practices for creating a welcome email for new hires,6,pk_05290,Draft New Employee Onboarding Email,hr-operations,4.2905836105347,2,2,
+best practices for creating a welcome email for new hires,7,pk_03870,Design Customer Onboarding Email Sequence,customer-success,2.9398603439331,2,2,
+best practices for creating a welcome email for new hires,8,pk_18647,Create onboarding email sequence,onboarding,2.6333839893341,2,0,not specified whose first day it is
+best practices for creating a welcome email for new hires,9,pk_16804,Draft Onboarding Email Sequence,onboarding,3.0183119773865,2,0,not specified whose first day it is
+best practices for creating a welcome email for new hires,10,pk_16422,FIRST DAY EMAIL TEMPLATE URGENT,onboarding,3.038754940033,2,0,not specified whose first day it is
+Best portable digital recorders for capturing personal stories,1,pk_17755,Hello! Help with recording equipment for my memoirs,audio-equipment,-5.4546222686768,0,1,
+Best portable digital recorders for capturing personal stories,2,pk_06044,"Hello young person, need some help with making music",audio-engineering,-6.5019063949585,0,0,Music making is not connected to recording personal stories
+Best portable digital recorders for capturing personal stories,3,pk_05756,Craft compelling personal narrative,communication,-8.6691360473633,0,0,just irrelevant
+Best portable digital recorders for capturing personal stories,4,pk_13967,Storytelling Framework for Coaches,career-coaching,-9.0027503967285,0,0,no storytelling needed
+Best portable digital recorders for capturing personal stories,5,pk_09815,Recommend DAW for Specific Use Case,production,-9.5537538528442,0,0,RAW and recorders and not connected
+Best portable digital recorders for capturing personal stories,6,pk_09031,"Good day, writing help needed",creative-writing,-9.5415802001953,0,0,this sounds like a short and informal email introduction
+Best portable digital recorders for capturing personal stories,7,pk_07142,Professional Narrative Builder,career-coaching,-10.645058631897,0,0,Narratives are recorders are not conected
+Best portable digital recorders for capturing personal stories,8,pk_16017,Product Description Generator,marketing,-10.606748580933,0,0,the user doesn't want to henerate any products
+Best portable digital recorders for capturing personal stories,9,pk_13358,Audience-Centered Speech Designer,personal-development,-10.891194343567,0,0,"the user needs a recorder, not a speech designer"
+Best portable digital recorders for capturing personal stories,10,pk_01668,"Hello there, sorry to bother you",audio-engineering,-10.631893157959,0,0,this is a hello message
+awkward job interview questions,1,pk_12765,interview went bad what now,recruiting,4.1115636825562,2,0,"post-interview recovery, not about the questions"
+awkward job interview questions,2,pk_09598,interview questions for our open position??,recruiting,3.8282885551453,2,0,"recruiter perspective, opposite of the query"
+awkward job interview questions,3,pk_07405,how to tell someone they didnt get the job,recruiting,3.2201809883118,2,0,"rejection topic, completely off"
+awkward job interview questions,4,pk_04238,exit interview questions template or something,recruiting,2.5210993289948,2,0,exit interview is different from job interview
+awkward job interview questions,5,pk_08540,interview questions for a marketing position idk what to ask tbh,hr,0.40702179074287,1,1,
+awkward job interview questions,6,pk_13013,interview questions thing for a manager position,recruiting,0.28810375928879,1,1,
+awkward job interview questions,7,pk_02960,Create Interview Questions for Role,recruiting,-0.12708696722984,0,0,"recruiter perspective, not awkard questions"
+awkward job interview questions,8,pk_10085,Behavioral Interview Questions,recruitment,-1.6389510631561,0,0,"Standard behavioral, not awkward"
+awkward job interview questions,9,pk_13676,interview questions marketing person,recruiting,-0.47177612781525,0,0,generic
+awkward job interview questions,10,pk_06518,interview questions for marketing position,recruiting,-0.39800196886063,0,0,generic
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,1,pk_00818,Evaluate an essay assessment rubric,assessment,5.8248500823975,2,2,
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,2,pk_00038,Assess argument quality,rubric,5.5614538192749,2,2,
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,3,pk_09502,Design a rubric for essay evaluation,education,5.5835046768188,2,2,
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,4,pk_18689,Develop a rubric for essays,education,4.6649813652039,2,2,
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,5,pk_11971,Design rubric for essay,education,3.8831553459167,2,2,
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,6,pk_08618,Create a rubric for persuasive essays,education,3.5388655662537,2,1,
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,7,pk_14401,Rubric for Writing Assignment,education,3.6729488372803,2,1,
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,8,pk_19573,Analyze student essay and provide feedback,education,2.4805908203125,2,2,
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,9,pk_18110,Essay writing assessment rubric,education,3.0947327613831,2,2,
+how do I effectively evaluate and provide feedback on student essays using a rubric for formative assessments in an argumentative writing class?,10,pk_07744,Build an assessment rubric,education,2.5243573188782,2,0,"completely generic, no essay/argumentative/formative context"
+best approach for building scalable web application: microservices or monolithic architecture?,1,pk_12290,Microservices vs Monolith Architecture,architecture,2.0696668624878,2,2,
+best approach for building scalable web application: microservices or monolithic architecture?,2,pk_18229,Evaluate microservices migration readiness,architecture,1.7870993614197,2,1,
+best approach for building scalable web application: microservices or monolithic architecture?,3,pk_00676,Microservices vs Monolith Decision Framework,architecture,1.6576631069183,2,2,
+best approach for building scalable web application: microservices or monolithic architecture?,4,pk_03122,Microservices architecture patterns,architecture,1.4289982318878,2,1,
+best approach for building scalable web application: microservices or monolithic architecture?,5,pk_09940,Microservices decomposition guide,architecture,1.2777309417725,2,1,
+best approach for building scalable web application: microservices or monolithic architecture?,6,pk_00876,Design a microservices architecture,architecture,1.2461394071579,2,1,
+best approach for building scalable web application: microservices or monolithic architecture?,7,pk_14896,Review Microservices Architecture,architecture,0.60429549217224,2,1,
+best approach for building scalable web application: microservices or monolithic architecture?,8,pk_08828,Act as DevOps Architecture Consultant,architecture,0.69929623603821,2,1,
+best approach for building scalable web application: microservices or monolithic architecture?,9,pk_04536,Architect E-Commerce Platform,architecture,-0.22875170409679,0,0,"too specific domain, not asked for"
+best approach for building scalable web application: microservices or monolithic architecture?,10,pk_18823,Microservices Architecture Review,architecture,-0.50014156103134,0,1,
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,1,pk_00409,Accomplishment Communication Strategy,career-coaching,-1.5546609163284,0,2,
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,2,pk_16619,Boundary Setting Framework,self-reflection,-3.0002064704895,0,0,boundaries are not conveing achievements
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,3,pk_06601,Quarterly Review Template,productivity,-3.3032329082489,0,1,
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,4,pk_14402,Boundary-setting conversation scripts,career,-3.459303855896,0,0,wrong topic entirely
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,5,pk_09399,SMART goals achievement blueprint,goal-setting,-4.5314049720764,0,1,
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,6,pk_16963,Boundary Setting Dialogue Templates,personal-development,-4.5656733512878,0,0,wrong topic entirely
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,7,pk_01888,Conduct Performance Review Analysis,performance-management,-4.795238494873,0,1,
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,8,pk_05493,Professional Development Plan,education,-5.8119440078735,0,0,"Career growth planning, not communicating achievements"
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,9,pk_03479,how to write self review,hr-recruiting,-6.1859703063965,0,2,
+Effective ways to convey achievements and goals to colleagues and superiors in a professional setting,10,pk_08744,Notion Dashboard for Personal Goals,notion-templates,-5.9108195304871,0,0,"personal, not for communicating to others"
+designing effective AI decision-making systems in games,1,pk_01831,Design Adaptive AI Opponents,game-design,3.5004186630249,2,2,
+designing effective AI decision-making systems in games,2,pk_06479,Write enemy AI behavior specifications,coding,2.5706708431244,2,2,
+designing effective AI decision-making systems in games,3,pk_14730,Enemy AI Behavior Trees,ai-design,0.32056161761284,1,2,
+designing effective AI decision-making systems in games,4,pk_06432,Step-by-Step: Implementing a Stealth System,game-design,1.5499502420425,2,1,AI not mentioned
+designing effective AI decision-making systems in games,5,pk_11031,Stealth Game AI Behavior Specification,game-design,-0.13258139789104,0,2,
+designing effective AI decision-making systems in games,6,pk_18487,Progression system design principles,game-design,-0.47026434540749,0,0,unrelated
+designing effective AI decision-making systems in games,7,pk_06641,Design Enemy AI Behavior Tree,game-design,-1.3279381990433,0,2,
+designing effective AI decision-making systems in games,8,pk_05480,Write companion AI personality behaviors,game-design,-1.7716374397278,0,2,
+designing effective AI decision-making systems in games,9,pk_16146,Enemy AI behavior tree design,game-design,,-1,2,
+designing effective AI decision-making systems in games,10,pk_14933,making enemies smarter without making them cheap,game-development,-2.2575426101685,0,2,
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,1,pk_14951,Analyze radio hit song structure,analysis,6.7967386245728,2,2,
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,2,pk_00008,Song Analysis Template,song-analysis,,-1,1,
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,3,pk_04014,Break Down Song Structure,song-analysis,-2.0178623199463,0,2,
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,4,pk_14754,Teach song structure variations,song-analysis,-4.1221404075623,0,1,
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,5,pk_04517,Deconstruct Hit Song Structures,song-analysis,-3.2547249794006,0,2,
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,6,pk_06726,this song structure is confusing me,song-analysis,-3.7523975372314,0,0,wrong intent entirely
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,7,pk_12260,Song Structure Comparative Analysis,song-analysis,-3.9859852790833,0,1,
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,8,pk_04629,Analyze Song Structure,analysis,-5.0912899971008,0,2,
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,9,pk_06186,Master song structure fundamentals,education,-4.6872525215149,0,1,
+What's the typical song structure of a radio hit song like 'Blinding Lights' by The Weeknd?,10,pk_08542,Create a Song Structure Template for {{genre}},composition,-4.2805304527283,0,0,"template creation, not explaining structure"
+Best practices for secure coding: vulnerability detection and mitigation techniques,1,pk_09073,Review code for security vulnerabilities,code-review,4.9142322540283,2,2,
+Best practices for secure coding: vulnerability detection and mitigation techniques,2,pk_13746,Review PR for Security Vulnerabilities,code-review,4.7029647827148,2,2,
+Best practices for secure coding: vulnerability detection and mitigation techniques,3,pk_00732,Secure Coding Training Curriculum,education,4.2457342147827,2,1,
+Best practices for secure coding: vulnerability detection and mitigation techniques,4,pk_06021,Act as Security Expert for Code Review,code-review,3.5401573181152,2,2,
+Best practices for secure coding: vulnerability detection and mitigation techniques,5,pk_11615,OWASP Security Checklist for Web Apps,coding,3.3025555610657,2,2,
+Best practices for secure coding: vulnerability detection and mitigation techniques,6,pk_15299,Review code for security vulnerabilities,code-review,3.0207788944244,2,2,
+Best practices for secure coding: vulnerability detection and mitigation techniques,7,pk_15810,Code Review Checklist for Security,code-review,3.0048565864563,2,2,
+Best practices for secure coding: vulnerability detection and mitigation techniques,8,pk_10881,Secure Coding Guidelines Generator,education,2.8773691654205,2,2,
+Best practices for secure coding: vulnerability detection and mitigation techniques,9,pk_04714,Security Code Review Checklist,devops,2.8156778812408,2,2,
+Best practices for secure coding: vulnerability detection and mitigation techniques,10,pk_17462,Explain SQL Injection Attack,education,0.86150687932968,2,1,
+Company culture survey best practices,1,pk_01495,List Company Culture Values,company-culture,5.4260902404785,2,1,
+Company culture survey best practices,2,pk_17819,Assess company culture strengths and gaps,culture,3.7157466411591,2,2,
+Company culture survey best practices,3,pk_17553,Assess Company Culture Strengths,company-culture,3.4023499488831,2,2,
+Company culture survey best practices,4,pk_06020,Company Culture Assessment Questions,culture,2.9578573703766,2,2,
+Company culture survey best practices,5,pk_18570,Assess company culture alignment,culture,2.5430092811584,2,1,
+Company culture survey best practices,6,pk_07707,Cultural Adaptation Checklist,localization,2.7103288173676,2,0,wrong meaning of 'culture'
+Company culture survey best practices,7,pk_11942,Kind greeting to you! Question about company culture survey,company-culture,2.3289577960968,2,1,
+Company culture survey best practices,8,pk_01264,Evaluate a company culture assessment,analysis,2.1156849861145,2,2,
+Company culture survey best practices,9,pk_09826,CULTURE SURVEY QUESTIONS NOW,hr,1.139755487442,2,2,
+Company culture survey best practices,10,pk_13919,culture survey,hr,0.90809726715088,2,1,
+Reinventing my purpose after career transition: Finding new direction and confidence,1,pk_04557,Identity After Job Loss,coaching,-0.52414119243622,0,1,
+Reinventing my purpose after career transition: Finding new direction and confidence,2,pk_06992,Career Transition Roadmap,coaching,-1.2680236101151,0,1,
+Reinventing my purpose after career transition: Finding new direction and confidence,3,pk_07834,Career Transition Road Map,personal-development,-2.5042297840118,0,1,
+Reinventing my purpose after career transition: Finding new direction and confidence,4,pk_19123,Career Transition Roadmapper,career-coaching,-2.9210608005524,0,1,
+Reinventing my purpose after career transition: Finding new direction and confidence,5,pk_08124,Career Transition Roadmap,career-coaching,-2.9364228248596,0,1,
+Reinventing my purpose after career transition: Finding new direction and confidence,6,pk_14690,New Manager Transition Guide,career-coaching,-3.9943807125092,0,0,"too specific, wrong context"
+Reinventing my purpose after career transition: Finding new direction and confidence,7,pk_14472,Act as My Career Transition Coach,career-coaching,-3.2354109287262,0,2,
+Reinventing my purpose after career transition: Finding new direction and confidence,8,pk_09146,Career Pivot Readiness Assessment,career-coaching,-3.5838837623596,0,2,
+Reinventing my purpose after career transition: Finding new direction and confidence,9,pk_07142,Professional Narrative Builder,career-coaching,-4.1565990447998,0,1,
+Reinventing my purpose after career transition: Finding new direction and confidence,10,pk_12001,Career Path Exploration Session,career-coaching,-4.2475748062134,0,1,
+Create a system for developing character relationships in storytelling,1,pk_07148,Design character relationship system,character-development,5.3423285484314,2,2,
+Create a system for developing character relationships in storytelling,2,pk_07460,Create character relationship map,creative-writing,5.7922177314758,2,2,
+Create a system for developing character relationships in storytelling,3,pk_07304,Develop character arc with internal/external goals,creative-writing,2.9072399139404,2,1,
+Create a system for developing character relationships in storytelling,4,pk_15852,Map Character Relationships,creative-writing,2.944272518158,2,2,
+Create a system for developing character relationships in storytelling,5,pk_16258,Relationship Web Mapping,creative-writing,3.0167179107666,2,0,too generic
+Create a system for developing character relationships in storytelling,6,pk_11761,Develop an Ensemble Cast with Tensions,creative-writing,2.4948785305023,2,2,
+Create a system for developing character relationships in storytelling,7,pk_16048,Develop Three-Dimensional Character Arcs,creative-writing,2.3875703811646,2,0,"Arcs = character development over time, not relationships between characters"
+Create a system for developing character relationships in storytelling,8,pk_19803,Develop Character Arc Framework,character-development,2.5145583152771,2,0,"Arcs = character development over time, not relationships between characters"
+Create a system for developing character relationships in storytelling,9,pk_09054,Character Backstory Generator,creative-writing,1.7818720340729,2,0,"backstory is individual character history, not inter-character relationships"
+Create a system for developing character relationships in storytelling,10,pk_09485,Create Character Backstory for Ensemble Cast,creative-writing,1.9093809127808,2,0,ensemble cast context doesn't imply relationship system
+Develop security risk assessment framework for online application,1,pk_09096,Risk Assessment Framework,legal,4.9401359558105,2,2,
+Develop security risk assessment framework for online application,2,pk_06817,Assess Supply Chain Security,analysis,3.9287867546082,2,1,
+Develop security risk assessment framework for online application,3,pk_02130,Create security risk assessment matrix,analysis,3.6686129570007,2,2,
+Develop security risk assessment framework for online application,4,pk_11588,Threat Modeling for Web Application,technical-writing,3.2740397453308,2,2,
+Develop security risk assessment framework for online application,5,pk_11630,Risk Assessment Framework for New Product Launch,legal,3.1727924346924,2,1,
+Develop security risk assessment framework for online application,6,pk_01250,Risk Assessment Matrix,risk-management,2.7416639328003,2,2,
+Develop security risk assessment framework for online application,7,pk_14238,Threat Modeling Framework Generator,education,2.4678919315338,2,2,
+Develop security risk assessment framework for online application,8,pk_08605,Vulnerability assessment framework,security,2.1318202018738,2,2,
+Develop security risk assessment framework for online application,9,pk_04320,Regulatory Risk Assessment Framework,legal,1.7346339225769,2,1,
+Develop security risk assessment framework for online application,10,pk_18791,Create Threat Model for Web App,analysis,2.1597304344177,2,2,
+jazz piano chord voicing exercises for improvisation and harmony,1,pk_11153,Master Chord Voicings for Jazz Piano,composition-exercises,5.6836242675781,2,2,
+jazz piano chord voicing exercises for improvisation and harmony,2,pk_13016,Jazz Chord Voicings Guide,education,5.2424921989441,2,2,
+jazz piano chord voicing exercises for improvisation and harmony,3,pk_19696,Compare chord voicing techniques,composition,5.2056212425232,2,2,
+jazz piano chord voicing exercises for improvisation and harmony,4,pk_12132,Compare Jazz and Blues Harmony,analysis,2.6602697372437,2,1,"harmony yes, but comparison of styles not chord voicing exercises"
+jazz piano chord voicing exercises for improvisation and harmony,5,pk_11654,Build Jazz Chord Vocabulary,education,3.572657585144,2,2,
+jazz piano chord voicing exercises for improvisation and harmony,6,pk_14583,Teach Modal Interchange Improvisation,education,2.6154203414917,2,1,"improvisation yes, but not chord voicing"
+jazz piano chord voicing exercises for improvisation and harmony,7,pk_18590,Design practice routine,composition,2.2971830368042,2,0,unrelated
+jazz piano chord voicing exercises for improvisation and harmony,8,pk_08639,Explain chord-scale relationships simply,music-theory,1.2496197223663,2,1,"chord scale, not chord voicing"
+jazz piano chord voicing exercises for improvisation and harmony,9,pk_06575,Practice common chord substitutions,music-theory,1.6959247589111,2,1,substitutions are not voicing
+jazz piano chord voicing exercises for improvisation and harmony,10,pk_14187,Analyze Harmony in Jazz Standards,music-theory,1.5388046503067,2,1,"Jazz harmony yes, but anlysis not exercises"
+helping a struggling friend find direction and purpose after job loss or transition,1,pk_04557,Identity After Job Loss,coaching,3.2709317207336,2,2,
+helping a struggling friend find direction and purpose after job loss or transition,2,pk_19827,Empathetic response to friend in career limbo,career,-4.9350137710571,0,2,
+helping a struggling friend find direction and purpose after job loss or transition,3,pk_15665,Dear friend - performance improvement plan help,performance-reviews,-4.5994172096252,0,0,"It's about performance, not job loss support"
+helping a struggling friend find direction and purpose after job loss or transition,4,pk_12990,Career Pivot Coaching Session,career-coaching,-8.8233280181885,0,1,"new direction yes, but not about job loss or helping a friend"
+helping a struggling friend find direction and purpose after job loss or transition,5,pk_09139,Career coach for interview prep,career,-8.1502952575684,0,0,not about direction or purpose after loss
+helping a struggling friend find direction and purpose after job loss or transition,6,pk_19024,Mindful Workday Transition,self-improvement,-8.1804256439209,0,0,unrelated
+helping a struggling friend find direction and purpose after job loss or transition,7,pk_15610,do i need to give a two week notice,human-resources,-7.0684356689453,0,0,unrelated
+helping a struggling friend find direction and purpose after job loss or transition,8,pk_14690,New Manager Transition Guide,career-coaching,,-1,0,"manager role transition, not job loss"
+helping a struggling friend find direction and purpose after job loss or transition,9,pk_12001,Career Path Exploration Session,career-coaching,-8.8587398529053,0,1,"finding direction yes, but not job loss or friend context"
+helping a struggling friend find direction and purpose after job loss or transition,10,pk_17005,Core values identification exercise,self-reflection,-8.7964553833008,0,1,"direction angle, nut no job loss or friend context"
+Calculate website quality score based on user engagement metrics,1,pk_15143,Review Quality Score Calculator,analytics,0.037605300545692,0,2,
+Calculate website quality score based on user engagement metrics,2,pk_15731,Calculate and interpret engagement survey results,analysis,0.055570490658283,0,1,"engagement yes, but no website quality"
+Calculate website quality score based on user engagement metrics,3,pk_05208,Quality assurance audit for website localization,localization-qa,-0.33449989557266,0,0,Based on localization
+Calculate website quality score based on user engagement metrics,4,pk_15209,Account health score calculation,crm,-1.1507848501205,0,0,no website engagement
+Calculate website quality score based on user engagement metrics,5,pk_18951,Calculate NPS from survey responses,satisfaction-surveys,-2.5718674659729,0,0,no website quality
+Calculate website quality score based on user engagement metrics,6,pk_18350,Employee Engagement Survey Analysis,engagement,-2.1066446304321,0,0,"employee engagement, not website"
+Calculate website quality score based on user engagement metrics,7,pk_15755,Account health score calculation,crm,-2.4990909099579,0,0,unrelated
+Calculate website quality score based on user engagement metrics,8,pk_10260,Calculate CSAT from survey responses,feedback-analysis,-3.3011145591736,0,0,unrelated
+Calculate website quality score based on user engagement metrics,9,pk_09936,Customer Health Score Calculation,feedback-analysis,-2.5344834327698,0,0,not website engagement
+Calculate website quality score based on user engagement metrics,10,pk_00102,Localization ROI Calculator Framework,localization,-3.3087725639343,0,0,unrelated
+IT security risk assessment template,1,pk_00282,Third-Party Risk Assessment Questionnaire,template,5.8904461860657,2,2,
+IT security risk assessment template,2,pk_02130,Create security risk assessment matrix,analysis,5.1592373847961,2,2,
+IT security risk assessment template,3,pk_12605,API Security Assessment Template,technical-writing,5.2399911880493,2,2,
+IT security risk assessment template,4,pk_08348,risk assessment,cybersecurity,5.0898957252502,2,2,
+IT security risk assessment template,5,pk_04233,Security Documentation Template,template,4.2097568511963,2,1,not security risk specific
+IT security risk assessment template,6,pk_01250,Risk Assessment Matrix,risk-management,3.8125891685486,2,2,
+IT security risk assessment template,7,pk_09404,Draft Privacy Impact Assessment,documentation,4.1084933280945,2,1,"privacy, not security risk"
+IT security risk assessment template,8,pk_09096,Risk Assessment Framework,legal,4.0903673171997,2,2,
+IT security risk assessment template,9,pk_02542,risk assesssment template,legal,3.7678101062775,2,2,
+IT security risk assessment template,10,pk_17438,risk assesssment template,legal,3.438946723938,2,2,
