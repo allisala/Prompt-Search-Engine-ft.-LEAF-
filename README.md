@@ -20,14 +20,14 @@ Built as an industry-partner project with **LEAF**, who provided the PromptKaban
 ## Table of contents
 
 - [What it does](#what-it-does)
+- [The data](#the-data)
 - [Highlights](#highlights)
 - [How it works](#how-it-works)
 - [Results](#results)
 - [Tech stack](#tech-stack)
 - [Project structure](#project-structure)
 - [Getting started](#getting-started)
-- [My role and contributions](#my-role-and-contributions)
-- [Team](#team)
+- [Team and contributions](#team-and-contributions)
 - [Dataset and acknowledgements](#dataset-and-acknowledgements)
 - [License](#license)
 
@@ -46,6 +46,30 @@ The system understands *intent*, not just keywords: it combines the meaning of t
 **Example — score breakdown for a single result (semantic vs. popularity vs. quality vs. freshness):**
 
 ![Score components](assets/demo_score_components.png)
+
+---
+
+## The data
+
+The **PromptKaban** dataset was provided by LEAF and contains **20,000 prompts** spanning categories such as marketing, coding, creative writing, and data analysis. Each record carries **20 fields** — the prompt `title` and `content`, taxonomy (`category`, `subcategory`, `tags`), engagement signals (`likes`, `upvotes`, `downvotes`, `views`, `uses`), quality signals (`author_reputation`, `fork_count`, `version`), and context such as `created_at`, `difficulty`, `language`, and `target_model`. The data arrived as clean, structured JSON, so no data cleaning was needed and the effort went into exploration and feature engineering instead.
+
+Exploratory data analysis directly shaped the ranking design. A few key findings:
+
+- The catalogue is **dominated by a handful of business and communication categories**, with a long tail of specialised topics — which is why the engine uses *intent-adaptive* metadata weights rather than one fixed recipe.
+- Most prompts are **short** (under ~200 characters), with a secondary cluster around 300–400 and a few long outliers — motivating a 700-character cap on the composite `semantic_text` field.
+- The engagement fields (likes, upvotes, downvotes, views, uses) are **strongly correlated** (≈0.70–0.85), so they collapse into a single popularity score, while author reputation contributes a separate quality signal.
+- The corpus is **predominantly English**, with a small multilingual tail (it, es, fr, de, pt, zh, ja).
+
+| | |
+|---|---|
+| ![Top categories](assets/eda_top_categories.png) | ![Content length distribution](assets/eda_content_length_distribution.png) |
+| **Top categories by prompt count** — creative writing leads, followed by marketing, sales, and legal. | **Content length distribution** — most prompts are short, with a long tail of larger ones. |
+| ![Metadata correlation heatmap](assets/eda_metadata_correlation.png) | ![Engagement by category](assets/eda_engagement_by_category.png) |
+| **Metadata correlation heatmap** — engagement fields move together and merge into one popularity signal. | **Engagement by category** — average community engagement varies markedly across topics. |
+| ![Language distribution](assets/eda_language_distribution.png) | ![Prompts over time](assets/eda_prompts_by_month.png) |
+| **Language distribution** — predominantly English, with a small multilingual tail. | **Prompts created over time** — informs the 180-day freshness decay used in ranking. |
+
+See `LEAF-promptkaban-dataset/FIELDS.md` for the full field schema.
 
 ---
 
@@ -205,23 +229,23 @@ streamlit run app.py
 
 ---
 
-## My role and contributions
+## Team and contributions
 
-I worked on this as part of a four-person team. My responsibilities spanned the full lifecycle of the project:
+This was a four-person team project. I — **Alisa Lamina** — served as the **project leader**, coordinating planning, direction, and delivery.
 
-- **Team lead** — owned planning, coordination, and delivery; set the technical direction and kept the work on track.
-- **Originator of the idea** — conceived the project: a semantic, intent-aware search engine for an AI-prompt catalogue.
-- **Lead developer** — designed and implemented the core code, including the retrieval stack (hybrid dense + BM25), cross-encoder reranking, metadata-aware scoring, the agentic rewriting + RRF layer, the importable runtime, and the evaluation harness.
-- **Design & UX (Figma)** — created the product and interface design in Figma that shaped the Streamlit demo experience.
+The table below reproduces the author-contribution breakdown from our technical report, following the [CRediT](https://credit.niso.org/) taxonomy.
 
----
-
-## Team
-
-- Alice Rossi
-- **Alisa Lamina** — team lead, idea, lead developer, design (Figma)
-- Andrea Cipolla
-- Maiia Kopalina
+| Contribution | Alisa Lamina | Maiia Kopalina | Alice Rossi | Andrea Cipolla |
+|---|:---:|:---:|:---:|:---:|
+| Conceptualization | ✓ | | | |
+| Project administration | ✓ | | | |
+| Methodology | ✓ | ✓ | ✓ | ✓ |
+| Software | ✓ | ✓ | ✓ | ✓ |
+| Visualization | ✓ | | ✓ | |
+| Formal analysis | ✓ | ✓ | ✓ | ✓ |
+| Validation | | ✓ | ✓ | ✓ |
+| Writing — original draft | | ✓ | | ✓ |
+| Writing — review & editing | ✓ | ✓ | ✓ | ✓ |
 
 ---
 
