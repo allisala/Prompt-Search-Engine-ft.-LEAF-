@@ -63,11 +63,11 @@ Exploratory data analysis directly shaped the ranking design. A few key findings
 | | |
 |---|---|
 | ![Top categories](assets/eda_top_categories.png) | ![Content length distribution](assets/eda_content_length_distribution.png) |
-| **Top categories by prompt count** — creative writing leads, followed by marketing, sales, and legal. | **Content length distribution** — most prompts are short, with a long tail of larger ones. |
-| ![Metadata correlation heatmap](assets/eda_metadata_correlation.png) | ![Engagement by category](assets/eda_engagement_by_category.png) |
-| **Metadata correlation heatmap** — engagement fields move together and merge into one popularity signal. | **Engagement by category** — average community engagement varies markedly across topics. |
-| ![Language distribution](assets/eda_language_distribution.png) | ![Prompts over time](assets/eda_prompts_by_month.png) |
-| **Language distribution** — predominantly English, with a small multilingual tail. | **Prompts created over time** — informs the 180-day freshness decay used in ranking. |
+| **Top categories by prompt count** — creative writing leads, followed by marketing, sales, and legal; a long tail of niche topics motivates intent-adaptive weighting. | **Title & content length distributions** — titles stay under ~50 characters; content peaks around 100–400 with a long tail, motivating the 700-character `semantic_text` cap. |
+| ![Metadata correlation heatmap](assets/eda_metadata_correlation.png) | ![Engagement by target model](assets/eda_engagement_by_target_model.png) |
+| **Metadata correlation heatmap** — engagement fields move together (≈0.6–0.9) and merge into one popularity signal, while author reputation stays separate as a quality signal. | **Mean engagement by target model** — `any`-model prompts collect ~2× the engagement of model-specific ones (note the log scale). |
+| ![Difficulty distribution](assets/eda_difficulty_distribution.png) | ![Language distribution](assets/eda_language_distribution.png) |
+| **Difficulty mix** — the corpus skews toward *intermediate*, with *expert* a small tail; difficulty is used as a soft compatibility signal, not a hard filter. | **Language distribution** — overwhelmingly English with a small multilingual tail, which is why an English-tuned embedder is a good fit. |
 
 See `LEAF-promptkaban-dataset/FIELDS.md` for the full field schema.
 
