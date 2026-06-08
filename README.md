@@ -231,7 +231,7 @@ streamlit run app.py
 
 ## Team and contributions
 
-This was a four-person team project. I — **Alisa Lamina** — served as the **project leader**, coordinating planning, direction, and delivery.
+This was a four-person team project. 
 
 The table below reproduces the author-contribution breakdown from our technical report, following the [CRediT](https://credit.niso.org/) taxonomy.
 
